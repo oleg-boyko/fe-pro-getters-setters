@@ -50,4 +50,4 @@ export const school = {
 
 school.init();
 
-};
+
