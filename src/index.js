@@ -29,12 +29,12 @@ export const school = {
 
         let gradeFilter = studArr.filter(function (item) {
           if (item.averageGrade <= maxGrade && item.averageGrade >= minGrade) {
-            return item;
+          return item;
           }
         });
 
         let gradeNames = gradeFilter.map(function (item) {
-          return item.name;
+        return item.name;
         });
 
         return gradeNames.join(', ');
