@@ -42,7 +42,7 @@ export const school = {
     });
   },
 
-  init() {
+  limitGrade() {
     this.mainGetter('aGradeStudents', 90, 100);
     this.mainGetter('bGradeStudents', 75, 89);
     this.mainGetter('cGradeStudents', 60, 75);
@@ -50,6 +50,6 @@ export const school = {
   },
 };
 
-school.init();
+school.limitGrade();
 
 
